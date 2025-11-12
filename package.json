@@ -1,6 +1,6 @@
 {
   "name": "react-leaflet-fullscreen",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "Fullscreen control for react-leaflet",
   "main": "dist.js",
   "scripts": {
@@ -18,9 +18,10 @@
   "author": "Vitaly Kravtsov <mail@krvital.pro> (https://krvital.pro/)",
   "license": "MIT",
   "peerDependencies": {
-    "react-leaflet": "^4.x"
+    "react-leaflet": "^5.x"
   },
   "dependencies": {
-    "leaflet.fullscreen": "2.4.0"
+    "leaflet.fullscreen": "4.0.0",
+    "screenfull": "6.0.2"
   }
 }
