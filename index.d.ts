@@ -1,10 +1,5 @@
-interface FullscreenOptions {
-    position?: 'topleft' | 'topright' | 'bottomleft' | 'bottomright';
-    title?: string;
-    titleCancel?: string;
-    content?: string;
-    forceSeparateButton?: boolean;
-    forcePseudoFullscreen?: boolean;
-    fullscreenElement?: false | HTMLElement;
-}
+import type { FullScreenOptions } from 'leaflet.fullscreen';
+
+export interface FullscreenOptions extends FullScreenOptions {}
+
 export declare function FullscreenControl(props: FullscreenOptions): null;
